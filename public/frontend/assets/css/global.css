@@ -1,0 +1,94 @@
+/*
+ Template Multi Vendor Ecommerce Version 1 / 2022.12
+ By Eng. Hanan Al-Slaiman
+=================================
+
+    |
+    |__ PUBLIC STYLES
+    |__ CUSTOM STYLES
+    |__ HEADER PAGE STYLES
+    |    |__ TOPBAR STYLES
+    |    |__ LOGOBAR STYLES
+    |    |__ NAVBAR STYLES
+    |__ HOME SLIDER 
+    |__ SERVICES
+    |__ OFFER
+    |__ CATEGORIES
+    |__ SELLEST
+    |__ LATEST
+    |__ FOOTER
+
+
+
+*/
+
+
+
+/***********************************************
+************************************************
+                PUBLIC STYLES
+************************************************
+***********************************************/
+
+* {
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    font-family: inherit;
+}
+
+:root {
+    --main-dark-color:  #7e1250;
+    --main-normal-color: #3b3737;
+    --main-light-color: #dabea6;
+    --main-dark-opacity-color:  #7e1250d8;
+    --main-opacity-color: #dabea6b0;
+    --main-light-opacity-color: #dabea654;
+    --grey-light-color: #f4f4f4;
+    --grey-dark-color: #dadada;
+    --transition: .3s ease-in-out all;
+    font-size: 15px;
+}
+
+::selection {
+    background-color: var(--main-dark-color);
+    color: #dabea6;
+}
+
+body {
+    text-align: start;
+    font-family: Cairo;
+    overflow-x: hidden;
+}
+
+
+body.rtl {
+    direction: rtl;
+}
+
+a {
+    display: inline-block;
+}
+
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+input {
+    font-family: inherit;
+    outline: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}

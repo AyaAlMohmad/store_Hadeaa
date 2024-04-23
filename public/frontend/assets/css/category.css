@@ -1,0 +1,8 @@
+.products-filter {
+    position: sticky;
+    top: 180px;
+}
+
+.filter-colors {
+    gap: .3rem;
+}

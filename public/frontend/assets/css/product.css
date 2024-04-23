@@ -1,0 +1,47 @@
+.product-details .product-title {
+    color: var(--main-dark-color);
+    font-size: 2rem;
+}
+
+.product-details .product-price {
+    color: var(--main-dark-color);
+    font-size: 1.5rem;
+}
+
+.product-details .product-desc {
+    padding: .5rem 0;
+}
+
+.product-details .product-feedbacks {
+    color: gold;
+}
+
+
+
+.product-choices input {
+    display: none;
+}
+
+.choices-item-wrapper {
+    padding: .5rem 0;
+}
+
+.choices-item-wrapper .title {
+    font-size: .9rem;
+    padding-bottom: .5rem;
+}
+
+input:checked+label {
+    outline: .2rem solid var(--main-dark-color);
+    box-shadow: 0 0 .2rem .2rem #cacaca;
+}
+
+.product-btns {
+    padding: 2rem 0;
+    display: flex;
+    gap: .7rem
+}
+
+.product-btns .btn i {
+    font-size: 1.5rem;
+}
