@@ -62,11 +62,11 @@
                         </form>
                         <form action="{{ route('order.store') }}" method="post">
                             @csrf
-                            <input type="hidden" name="product_id" value="{{ $item->id }}">
-                            <button id="showInputs-{{ $item->id }}" data-hint="إضافة إلى المحفظة" class="btn"><i
+                            <input type="hidden" name="product_id" value="{{ $product->id }}">
+                            <button id="showInputs-{{ $product->id }}" data-hint="إضافة إلى المحفظة" class="btn"><i
                                 class="fa fa-shopping-cart"></i> ضافة إلى السلة </button>
                         
-                            <div id="inputFields-{{ $item->id }}" style="display: none;">
+                            <div id="inputFields-{{ $product->id }}" style="display: none;">
                                 <input type="number" name="amount" placeholder="الكمية" required>
                                 <input type="text" name="comment" placeholder="التعليق" required>
 
